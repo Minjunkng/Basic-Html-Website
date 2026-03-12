@@ -1,0 +1,17 @@
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;  /* font to be used on all page bodies */
+    margin: 0;                       /* leave no spacing around the outside */
+    padding: 0;                      /* leave no spacing around the inside */
+    background-color: #f1a9ba;     /* white background for all page bodies */
+    color: #333;                   /* text color for all page bodies */
+    overflow-x: hidden;              /* hide horizontal overflow globally */
+}
+
+h2 {
+    text-align: center; 
+}
+
+
+

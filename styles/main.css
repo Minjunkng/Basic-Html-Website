@@ -1,0 +1,99 @@
+/* Container for header and button, centered */
+#header-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Style the heading */
+#header-container h1 {
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Gill Sans MT', sans-serif;
+}
+
+/* Style the Load a Test button */
+#retrieveTests {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #B19CD9;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Gill Sans MT', sans-serif;
+}
+
+#retrieveTests:hover {
+  background-color: #9370DB;
+}
+
+/* Container for all questions */
+#questiondiv {
+  max-width: 800px;
+  width: 100%;
+  margin: 2rem auto 3rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Gill Sans MT', sans-serif;
+  display: none;
+}
+
+.gif-center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Each question block */
+.question-block {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Question text */
+.question-block p {
+  font-size: 1.1rem;
+  font-family: "Gill Sans";
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Answers styling */
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  transition: background-color 0.2s ease;
+  color: #333;
+  user-select: none;
+  font-family: 'Gill Sans MT', sans-serif;
+}
+
+/* Hover effect for answers */
+.answer:hover {
+  background-color: #eef6ff;
+}
+
+/* Highlight correct answer */
+.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+/* Highlight wrong answer */
+.wrong {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}

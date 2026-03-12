@@ -1,0 +1,37 @@
+
+/* Settings for the header on all pages */
+header { 
+    background-color: white;/* set color to same as logo background image */
+    text-align: center;          /* center the text (and image) */
+}
+
+/* Settings for the footer on all pages */
+footer {
+    text-align: center;           /* center the text */
+    background-color: #f1a9ba;  /* set color to same as logo background image */
+    color: white;               /* set font color to white */
+    padding: 10px 0px 10px 0px;   /* (top|right|bottom|left) ... leaves 10 pixes on top and bottom */
+}
+
+
+.question-image {
+    border-radius: 20%;
+    overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 10px auto;
+}
+
+.answers {
+  margin-top: 15px;
+}
+
+.answer-btn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 18px;
+  cursor: pointer;
+}
